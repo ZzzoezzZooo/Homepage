@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yutao Tang's home page</title>
+
+    <link href="templatemo_style48.css" rel="stylesheet" type="text/css" />
+    <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        h1 strong {
+            color: #535300;
+        }
+        #site_title h3 span {
+            color: #545429;
+        }
+        #site_title h1 {
+            color: #535300;
+        }
+    </style>
+
+</head>
+
+<body id="templatemo_header">
+
+<div id="site_title">
+    <h1><strong>Yutao Tang</strong></h1><span>Welcome to my home page</span>
+</div>
+<br/><br/><br/><br/><br/><br/>
+<div id="templatemo_menu">
+
+    <ul>
+        <li><a href="index.html"><span></span>Home</a></li>
+        <li><a href="yytang2012 (yytang).html"><span></span>Github</a></li>
+        <li><a href="Google Scholar Citations.html"><span></span>Citations</a></li>
+        <li><a href="Yutao Tang _ LinkedIn.html"><span></span>linkedin</a></li>
+        <li><a href="contact.html"><span></span>Contact</a></li>
+    </ul>
+
+</div> <!-- end of templatemo_menu -->
+
+<div id="templatemo_middle">
+
+    <div id="mid_left">
+        <img class="image_wrapper" src="images/tao2.jpg" width="351"height="281" alt="Yutao Tang">
+    </div>
+
+    <div id="mid_right">
+        <h2 align="center"><strong>About Me</strong></h2>
+        <h3> <p>I am currently a Ph.D. candidate in the Computer Science Department at the College of William and Mary, under the supervision of Prof. Qun Li. My research interests include ARM Virtualization (KVM, XEN), Trust Zone, and Android System. Before coming to W&M, I got my bachelor degree in Computer Science from Beijing University of Posts and Telecommunications(BUPT) in 2008, and got Master degree in Chinese Academy of Sciences (ICT-CAS).</p></h3>
+        <div class="mid_more"><a href="#"><strong>RESUME</strong></a></div>
+    </div><br/><br/><br/><br/>
+
+</div> <!-- end of templatemo_middle -->
+
+<!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/piroBox.1_2.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        $().piroBox({
+
+            my_speed: 600, //animation speed
+
+            bg_alpha: 0.5, //background opacity
+
+            radius: 4, //caption rounded corner
+
+            scrollImage : false, // true == image follows the page, false == image remains in the same open position
+
+            pirobox_next : 'piro_next', // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+
+            pirobox_prev : 'piro_prev',// Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+
+            close_all : '.piro_close',// add class .piro_overlay(with comma)if you want overlay click close piroBox
+
+            slideShow : 'slideshow', // just delete slideshow between '' if you don't want it.
+
+            slideSpeed : 4 //slideshow duration in seconds(3 to 6 Recommended)
+
+        });
+
+    });
+
+</script>
+<!--////// END  \\\\\\\-->
+<br/><br/><br/>
+<div id="templatemo_main">
+
+    <div class="content_box"><div id="home"></div>
+        <div class="content_box_content">
+            <h2>Education</h2>
+                <ul class="tmo_list">
+                <h3><li>Ph.D. candidate in Computer Science, 2012-Present, College of William and Mary (W&M), USA</li><br/>
+                <li> M.S. in Computer Science, 2008-2011, Institute of Computing Technology, Chinese Academy of Sciences (ICT-CAS), China</li><br/>
+                    <li>B.S. in Computer Science, 2004-2008, Beijing University of Posts and Telecommunications (BUPT), China</li></h3>
+                </ul>
+            </div>
+            <div class="cleaner h30"></div>
+            <a class="gototop" href="#top"></a>
+            <div class="cleaner"></div>
+        </div> <!-- end of content box content -->
+    </div> <!-- end of a content box -->
+</div><!-- end of a content box -->
+
+    <div class="content_box">
+        <div class="content_box_content">
+            <h2>Expertises</h2>
+                <ul class="tmo_list">
+                    <h3><li>Proficient in Java (Android Dev.) and C. Skilled in Python, ARM/MIPS assembly, nodejs, HTML/CSS,JavaScript.</li><br/>
+                    <li>Solid understating of Linux kernel internals, Linux kernel dev, Android OS internals and varies algorithms.</li><br/>
+                    <li>Libraries: Scrapy, WebRTC, RxJava, Protocol-Buffers, etc.</li><br/>
+                    <li>Opensource Projects: AOSP, SVMP, Android for x86, TaintDroid, KVM for ARM, Xen for ARM,u-Boot.</li><br/>
+                    <li>Tools: Git, IntelliJ, Android Studio, Eclipse, Vim etc.</li><br/>
+                        <li>Platforms: UNIX/Linux, Windows, Android, Bootloader, VxWorks.</li></h3>
+                </ul>
+            </div>
+            <div class="cleaner h30"></div>
+            <a class="gototop" href="#top"></a>
+            <div class="cleaner"></div>
+        </div> <!-- end of content box content -->
+    </div> <!-- end of a content box -->
+
+<div class="content_box">
+    <div class="content_box_content">
+        <h2>Selected Projects</h2>
+        <ul class="tmo_list">
+            <h3><li><strong>Mini-OS Migration on Smarpthone for IoT Applications      2015</strong>
+                <br/>Proposed a new migration solution that enables a Mini-OS to migrate between ARM based devices. We
+                    implemented a prototype XEN-MiniOS on exynos 5250 development board, and the evaluation shows
+                    that our solution is practical and efficient.</li><br/>
+
+                <li><strong>Detecting data leakage via Covert Channels on Smartphone      2015</strong>
+                <br/>Implemented an enhanced TaintDroid system that can track data transferring via five types of covert
+                    channels (e.g. Speaker ! Microphone. Speaker ! Accelerometer). We implemented this system on galaxy nexus and nexus 10.</li><br/>
+
+                <li><strong>Record and Replay Tool for Android Applications      2014-2015 </strong><br/>
+                    <br/>Proposed a novel tool that records and replays all input to an application without requiring root privilege
+                    of the mobile device. This tool adopts a client-server architecture, in which the to-be-tested Android
+                    applications are executed in a remote server while a client is running on the local smart device. Specifically,
+                    input (sensor, gps, user actions etc.) is recorded in the client and forwarded to the application
+                    running on the remote server; output (screen content) is sent back to the client in real time, and then
+                    rendered on the device screen so that the user has the same experience as if the application is running
+                    locally. The tool has been evaluated with tens of popular mobile applications, showing that it is efficient,
+                    flexible, and comprehensive.</li><br/>
+
+                <li><strong>A secure Runtime Environment for Android Applications      2013-2014</strong>
+                    <br/>Proposed a system that protects the runtime environment for sensitive Android applications even when
+                    the operating system is compromised. This system combines KVM for ARM technique and clientserver
+                    architecture, protecting not only the memory but also the input/output of sensitive applications.
+                    We implemented and evaluated a prototype system on chromebook.</li><br/>
+
+
+                <li><strong>Port VxWorks OS to MIPS-Based Development Boards      2008-2012</strong>
+                <br/>Ported VxWorks to the latest Loogson products (MIPS-based). This work includes porting drivers for
+                    network card, USB device, hard drive, graphics, audio, keyboard, mouse, serial port, and parallel port,
+                    and rewriting the VxWorks core such that it can support new features in the Loogson products.</li></h3>
+        </ul>
+    </div>
+    <div class="cleaner h30"></div>
+    <a class="gototop" href="#top"></a>
+    <div class="cleaner"></div>
+</div> <!-- end of content box content -->
+</div> <!-- end of a content box -->
+
+<div class="content_box">
+    <div class="content_box_content">
+        <h2>Publications</h2>
+        <ul class="tmo_list">
+            <li><h3><strong>Conferences</strong></h3></li>
+            <li><h3><strong>[ICSE'16]</strong>Zhengrui Qin,<strong> Yutao Tang,</strong> Ed Novak, and Qun Li
+                    <a href="ICSE2016.pdf" title="ICSE" target="_parent"><strong>"MobiPlay: A Remote Execution Based Record-and-Replay Tool for Mobile Applications"</strong></a>
+                    To appear at ACM/IEEE International Conference on Software Engineering (ICSE),Austin, TX, May 14-22, 2016. (Acceptance rate: 19%)<strong> (Zhengrui and Yutao are both co-first authors.)</strong></h3></li>
+
+                    <li><h3><strong>[Ubicomp'15]</strong>Ed Novak,<strong>Yutao Tang,</strong>Zijiang Hao, Yifan Zhang, and Qun Li
+                <a href="Physical Media Covert Channels on Smart Mobile Devices.pdf" title="Ubicomp" target="_parent"><strong>"Physical Media Covert Channels on Smart Mobile Devices"</strong></a>
+                        In the Proceedings of ACM UBICOMP 2015., Osaka, Japan, Sept. 7-11, 2015.(Acceptance rate: 23%)</h3></li>
+
+                    <li><h3><strong>[NFOCOM'15]</strong>Zijiang Hao,<strong>Yutao Tang,</strong>Yifan Zhang, Ed Novak, Nancy Carter, and Qun Li
+                        <a href="infocom15-smoc.pdf" title="Ubicomp" target="_parent"><strong>"SMOC: A Secure Mobile Cloud Computing Platform"</strong></a>
+                        In the Proceedings of ACM UBICOMP 2015., Osaka, Japan, Sept. 7-11, 2015.(Acceptance rate: 23%)</h3></li>
+            <br/>
+            <li><h3><strong>In Submission</strong></h3></li>
+            <li><h3><strong>Yutao Tang,</strong> Ed Novak, Zijiang Hao, Zhengrui Qin and Qun Li
+            <strong>"SEMACH: Secure Environment for Mobile Applications based on Cloud and Hypervisor"</strong></h3></li>
+
+            <li><h3><strong>Yutao Tang,</strong> Zhengrui Qin and Qun Li
+                <strong>"Virtual Machine Migration on Smartphone for IoT Applications"</strong></h3></li>
+        </ul>
+    </div>
+    <div class="cleaner h30"></div>
+    <a class="gototop" href="#top"></a>
+    <div class="cleaner"></div>
+</div> <!-- end of content box content -->
+</div> <!-- end of a content box -->
+
+    <div class="content_box content_box_last">
+        <div id="contactus"></div>
+        <div class="content_box_content">
+
+            <h2>Contact Information</h2>
+            <p><h4>Send me a note using the form below or contact me using the following information</h4></p>
+
+            <div class="cleaner h30"></div>
+
+            <div class="col_w340 float_l">
+
+                <h4>Contact Form</h4>
+
+                <div id="contact_form">
+                    <form method="post" name="contact" action="#">
+                        <input type="hidden" name="post" value="Send" />
+                        <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
+                        <div class="cleaner h10"></div>
+
+                        <label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" />
+                        <div class="cleaner h10"></div>
+
+                        <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                        <div class="cleaner h10"></div>
+
+                        <input type="submit" class="submit_btn float_l" name="submit" id="submit" value="Send" />
+                        <input type="reset" class="submit_btn float_r" name="reset" id="reset" value="Reset" />
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col_w340 float_r">
+                <h4><strong>Where I Am</strong></h4>
+                <div id="map"><a class="pirobox" href="images/map_big.jpg" title="Location"><img width="300" height="150" src="images/maptao.jpg" alt="Map" class="image_wrapper" /></a></div>
+                <div class="cleaner h30"></div>
+
+                <h4><strong>Mailing Address</strong></h4>
+                <h6>College of William and Mary</h6>
+                Computer Science Department<br />
+                College of William and Mary<br />
+                Williamsburg, VA, 23185<br />
+                Office: 101A in McGlothlin-Street Hall</div>
+
+            <div class="cleaner h30"></div>
+            <a class="gototop" href="#top"></a>
+            <div class="cleaner"></div>
+        </div> <!-- end of content box content -->
+    </div> <!-- end of a content box -->
+
+</div> <!-- end of main -->
+
+<div id="templatemo_footer">
+
+    kissingers800@gmail.com <a href="#">yutaotanghomepage</a> | home page of <a href="https://github.com/yytang2012" target="_parent" title="yutaotang">yutaotang</a>
+
+</div> <!-- end of templatemo_footer -->
+
+</div> <!-- end of wrapper -->
+
+</body>
+</html>
+
+</body>
+
+</html>
